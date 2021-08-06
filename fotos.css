@@ -1,0 +1,696 @@
+
+html, body {
+    margin: 0;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Lato';
+}
+
+body {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* FIM | Configurações padrão */
+
+
+/* COMEÇO | Clases usadas em varias partes do site. */
+
+.container {
+    width: 100%;
+    float: left;
+    padding: 3% 4%;
+    text-align: center;
+}
+
+.bgGradiente {
+    background: linear-gradient(to right, #85f3f3, #bafaff);
+}
+
+.bgBlack {
+    background-color: black;
+}
+
+.bgWhite {
+    background-color: white;
+}
+
+.bgGray {
+    background-color: rgb(189, 189, 189);
+}
+
+.radius {
+    border-radius: 10px;
+}
+
+/* FIM | Clases usadas em varias partes do site. */
+
+
+
+/* COMEÇO | CSS do Cabeçalho */
+
+.logo {
+    width: 56px;
+    height: 56px;
+    float: left;
+    background: url(img/Logo.jpg) center center/56px no-repeat;
+}
+
+/* COMEÇO | CSS do Menu */
+
+.btmenu {
+    width: 56px;
+    height: 56px;
+    float: right;
+    border-radius: 56px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+.menu {
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: white;
+    z-index: 9900;
+    opacity: ;
+    top: 0;
+    left: 0;
+}
+
+.btclose {
+    font-size: 1.5em;
+    color: #85f3f3;
+    float: right;
+    cursor: pointer;
+    margin: 2% 3% 0% 0%;
+}
+
+.menu ul {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.menu ul li {
+    padding: 2%;
+}
+
+.menu ul li a {
+    font-size: 2em;
+    color: black;
+}
+
+/* FIM | Menu e CSS do Cabeçalho */
+
+
+
+/* COMEÇO | CSS da metade de baixo do início */
+
+#imagem_fundo {
+    background: url(img/FundodeBaixo.png);
+    text-align: center;
+    background-size: cover;
+}
+
+#titulo {
+    color: black;
+    padding-top: 10%;
+    font-size: 70px ;  
+}
+
+/* FIM | CSS da metade de baixo do início */
+
+
+/* COMEÇO | Imagem de baixo do Slider */
+
+.Principal img {
+    width: 100%;
+    height: 80px;
+}
+
+/* FIM | Imagem de baixo do Slider */
+
+
+
+/* COMEÇO | Div - Fotos */
+
+/* OBS: coloquei uma configuração para cada coluna para depois conseguir mudar a posição */
+
+.tres {
+    width: 33.3%;
+}
+
+.tresponto {
+    width: 33.3%;
+}
+
+.coluna {   
+    float: left;
+    position: relative;
+}
+
+.coluna img {   
+    width: 150px;
+    height: 110px;
+}
+
+.coluna2 {
+    float: left;
+    position: relative;
+}
+
+.coluna2 img {
+    width: 150px;
+    height: 230px;
+}
+
+.coluna3 {
+    float: left;
+    position: relative;
+}
+
+.coluna3 img {
+    width: 150px;
+    height: 110px;
+}
+
+.coluna4 {
+    float: left;
+    position: relative;
+}
+
+.coluna4 img {
+    width: 150px;
+    height: 230px;
+}
+
+.coluna5 {
+    float: left;
+    position: relative;
+}
+
+.coluna5 img {
+    width: 150px;
+    height: 110px;
+}
+
+.coluna6 {
+    float: left;
+    position: relative;
+}
+
+.coluna6 img {
+    width: 150px;
+    height: 230px;
+}
+
+.coluna7 {
+    float: left;
+    position: relative;
+}
+
+.coluna7 img {
+    width: 150px;
+    height: 110px;
+}
+
+.coluna8 {
+    float: left;
+    position: relative;
+}
+
+.coluna8 img {
+    width: 150px;
+    height: 230px;
+}
+
+.coluna9 {
+    float: left;
+    position: relative;
+}
+
+.coluna9 img {
+    width: 150px;
+    height: 110px;
+}
+
+.coluna10 {
+    float: left;
+    position: relative;
+}
+
+.coluna10 img {
+    width: 150px;
+    height: 230px;
+}
+
+.coluna11 {
+    float: left;
+    position: relative;
+}
+
+.coluna11 img {
+    width: 150px;
+    height: 110px;
+}
+
+.coluna12 {
+    float: left;
+    position: relative;
+}
+
+.coluna12 img {
+    width: 150px;
+    height: 230px;
+}
+
+/* FIM | Div - Fotos */
+
+
+
+/* COMEÇO | Configuração para o Site ser RESPONSIVO */
+
+@media screen and (min-width: 480px) {
+
+    .menu ul li {
+        padding: 1%;
+    }
+        
+    .menu ul li a {
+        font-size: 1em;
+        color: black;
+    }
+
+    .form {
+        display: inline-block;
+        width: 40%;
+        height: 10px;
+        margin: 0% 0%;
+    }
+
+    .imputTexteNewsLetter {
+        display: inline-block;
+        width: 50%;
+        padding: 0%;
+        font-size: 10;
+    }
+        
+    .btNewsLetter {
+        display: inline-block;
+        width: 30%;
+        padding: 4%;
+        margin-top: 0%;
+        color: black;
+        font-weight: bold;
+        font-size: 10;
+        background-color: white ;
+    }
+        
+    .Principal img {
+        width: 100%;
+        height: 120px;
+    }
+
+    .coluna img {   
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna2 img {
+        width: 220px;
+        height: 360px;
+    }
+    
+    .coluna3 img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna4 img {
+        width: 220px;
+        height: 360px;
+    }
+    
+    .coluna5 img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna6 img {
+        width: 220px;
+        height: 360px;
+    }
+    
+    .coluna7 img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna8 img {
+        width: 220px;
+        height: 360px;
+    }
+    
+    .coluna9 img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna10 img {
+        width: 220px;
+        height: 360px;
+    }
+    
+    .coluna11 img {
+        width: 220px;
+        height: 180px;
+    }
+    
+    .coluna12 img {
+        width: 220px;
+        height: 360px;
+    }
+}
+
+@media screen and (min-width: 650px) {
+
+    .menu ul li {
+        padding: 0.5%;
+    }
+    
+    .menu ul li a {
+        font-size: 2em;
+        color: black;
+    }
+
+    .Principal img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .coluna {   
+        float: left;
+        position: relative;
+    }
+    
+    .coluna img {   
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna2 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna2 img {
+        width: 370px;
+        height: 490px;
+    }
+    
+    .coluna3 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna3 img {
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna4 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna4 img {
+        width: 370px;
+        height: 490px;
+    }
+    
+    .coluna5 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna5 img {
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna6 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna6 img {
+        width: 370px;
+        height: 490px;
+    }
+    
+    .coluna7 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna7 img {
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna8 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna8 img {
+        width: 370px;
+        height: 490px;
+    }
+    
+    .coluna9 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna9 img {
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna10 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna10 img {
+        width: 370px;
+        height: 490px;
+    }
+    
+    .coluna11 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna11 img {
+        width: 370px;
+        height: 280px;
+    }
+    
+    .coluna12 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna12 img {
+        width: 370px;
+        height: 490px;
+    }
+}
+
+@media screen and (min-width: 1360px) { 
+
+    .menu ul li {
+        padding: 0.5%;
+    }
+    
+    .menu ul li a {
+        font-size: 2em;
+        color: black;
+    }
+
+    .Principal img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .teste {
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    
+    .coluna {   
+        float: right;
+        position: relative;
+    }
+    
+    .coluna img {   
+        margin-left: -3%;
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna2 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna2 img {
+        margin-top: -11%;
+        width: 240px;
+        height: 400px;
+    }
+    
+    .coluna3 {
+        float: right;
+        position: relative;
+    }
+    
+    .coluna3 img {
+        margin-left: -2.5%;
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna4 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna4 img {
+        width: 240px;
+        height: 400px;
+    }
+    
+    .coluna5 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna5 img {
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna6 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna6 img {
+        width: 240px;
+        height: 400px; 
+    }
+    
+    .coluna7 {
+        float:right;
+        position: relative;
+    }
+    
+    .coluna7 img {
+        margin-left: -2.5%;
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna8 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna8 img {
+        margin-top: -90%;
+        width: 240px;
+        height: 400px;
+    }
+    
+    .coluna9 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna9 img { 
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna10 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna10 img {
+        width: 240px;
+        height: 400px;
+    }
+    
+    .coluna11 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna11 img {
+        margin-top: -89.3%;
+        width: 240px;
+        height: 200px;
+    }
+    
+    .coluna12 {
+        float: left;
+        position: relative;
+    }
+    
+    .coluna12 img {
+        width: 150px;
+        height: 200px;
+    }
+
+    .tres {
+        width: 16.6%; 
+    }
+
+    .tresponto {
+        width: 16.6%;  
+    }
+}
+
+/* FIM | Configuração para o Site ser RESPONSIVO */
+
+
+
+
+
+

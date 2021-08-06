@@ -1,0 +1,160 @@
+<html lang="pt-br">
+    <head>
+            <link rel="icon" href="img/Logo.jpg"/>
+            <title> Bendito Doce </title>
+            <link rel="stylesheet" href="estilo.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inicial-scale=1">
+        <meta name="description" content="Paladar - O melhor restaurante do Brasil">
+        <meta name="keywords" content="Restaurante">
+        <meta name="robots" content="index, follow">
+        <meta name="author" content="Andressa H Cardoso">
+        <script src="https://kit.fontawesome.com/7fdc518e23.js" crossorigin="anonymous"></script> <!--Para adicionar icones-->
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> <!--Fontes do google-->
+    </head>
+
+    <body>
+
+<!--Cabeçalho-->
+<header class="container cabecalho">
+    <a href="index.html" class="logo"></a>
+    <button class="btmenu bgGradiente"> <i class="fas fa-bars"></i></button>
+   
+    <nav class="menu">
+        <a href="" class="btclose "><i class="fas fa-times"></i></a> <!-- Icone -->
+
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="cardapio.html">Cardápio</a></li>
+            <li><a href="fotos.html">Fotos</a></li>
+            <li><a href="https://www.instagram.com/bendito.doce.rs/?utm_medium=copy_link">Instagram <i class="fab fa-instagram"></i></i> </a></li>
+            <li>------------------------------------------</li>
+                
+            <li><a href="https://api.whatsapp.com/send?phone=5551993754152&text=Ol%C3%A1%2C%20este%20%C3%A9%20o%20WhatsApp%20do%20Bendito%20Doce%20de%20S%C3%A3o%20Leopoldo.">  São Leopoldo <i class="fab fa-whatsapp"> </i></a></li>
+            <li><a href="https://api.whatsapp.com/send?phone=5551993754152&text=Ol%C3%A1%2C%20este%20%C3%A9%20o%20WhatsApp%20do%20Bendito%20Doce%20de%20S%C3%A3o%20Leopoldo.">  Santiago <i class="fab fa-whatsapp"> </i></a></li>
+           
+        </ul>
+
+    </nav>
+
+</header>
+
+<!-- Inicio da configuração para funcionar o botão do menu-->
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> <!--Link para funcionar o botao | Jquery -->
+
+<!-- O número 300 é o tempo de Delay -->
+<script>
+    
+    $(".btmenu").click(function () {
+        $(".menu").show (300); 
+    });
+
+    $(".btclose").click(function () {
+        $(".menu").hide (300);
+    });
+
+</script>
+
+<!-- Fim da configuração para funcionar o botão do menu-->
+
+<!-- Termino do Cabeçalho-->
+
+        <div class="Principal">
+           <center> <img class= "icone" src="img/Principal.jpg" alt="Plásticos" /></center>
+        </div>
+
+        
+
+        <p class="paragrafo"> Pudins feitos com amor para você! </p>
+
+        <br>
+
+        <p class="paragrafo"> Encomendas pelo WhatsApp: </p>
+
+        <p class="paragrafo"> -------------------------------------- </p>
+
+        <p> <i class="fas fa-map-pin paragrafo" style="color: rgb(170, 238, 247);"> </i> São Leopoldo | RS  </p>
+        <p> <i class="fas fa-map-pin paragrafo" style="color: rgb(170, 238, 247);"> </i> Santiago | RS  </p>
+
+        <br>
+        
+        
+<!--Pagina Principal-->
+        <main class="container conteudoPrincipal">
+        
+            <article class="produtos bgWhite radius">
+                <a href=""><img src="img_Pudins/10.jpg"/></a>
+        
+                <div class="textos">
+                    <a href=""> Pudim Tradicional </a>
+                    <h4> Feito com amor para você! </h4>
+                    <p> Para saber mais clique aqui.  <i class="far fa-arrow-alt-circle-right"></i></p>
+                </div>
+        
+            </article>
+        
+            <article class="produtos bgWhite radius">
+                <a href=""><img src="img_Pudins/4.jpg"/></a>
+        
+                <div class="textos">
+                    <a href=""> Pudim Morango </a>
+                    <h4> Feito com Amor para você! </h4>
+                    <p> Para saber mais clique aqui.  <i class="far fa-arrow-alt-circle-right"></i></p>
+                </div>
+        
+            </article>
+        
+            <article class="produtos bgWhite radius">
+                <a href=""><img src="img_Pudins/6.jpg"/></a>
+        
+                <div class="textos">
+                    <a href=""> Pudim Chocolate </a>
+                    <h4> Feito com Amor para você! </h4>
+                    <p> Para saber mais clique aqui.  <i class="far fa-arrow-alt-circle-right"></i></p>
+                </div>
+        
+            </article>
+        
+        </main>
+
+<!--Fim da Pagina Principal-->
+        
+
+<!-- News Leter-->
+        <section class="container newsleter bgGray">
+        
+            <div class="title">
+                <h1> Inscreva-se </h1>
+                <h2> E receba nossas novidades no seu E-mail </h2>
+            </div>
+        
+            <div class="form">
+                <form action="" type="post">
+                    <input type="text" name="" class="radius imputTexteNewsLetter ">
+                    <input type="submit" name="" value="Cadastrar" class="radius btNewsLetter">
+                </form>
+            </div>
+        
+        </section>
+<!-- Fim | News Leter -->
+        
+<!-- Rodape -->
+        <footer class="bgGradiente container rodape">
+        
+            <div class="socialIcons"> 
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+                <a href="https://www.google.com.br/"><i class="fab fa-google"></i></a>
+                <a href="https://www.instagram.com/bendito.doce.rs/?utm_medium=copy_link"><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fas fa-envelope"></i></a>
+            </div>
+        
+            <p class="direitos"> Copyright © Bendito Doce 2021. Todos os direitos reservados. </p>
+        
+        </footer>
+<!-- Fim do Rodape -->
+
+
+    </body>
+</html>
